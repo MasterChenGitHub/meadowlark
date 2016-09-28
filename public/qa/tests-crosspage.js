@@ -6,7 +6,7 @@ var Browser = require('zombie'),
 
 var browser;
 
-suite('Cross-Page tEsts', function () {
+suite('Cross-Page Tests', function () {
     setup(function () {
         browser = new Browser();
     });
@@ -14,7 +14,7 @@ suite('Cross-Page tEsts', function () {
     test('requesting a group  rate quote from the hood river tour page' + 'should populate the referrer field'
         , function (done) {
             var referrer = 'http://localhost:3000/tours/hood-river';
-            browser.visit(refrrrer, function () {
+            browser.visit(referrer, function () {
                 browser.clickLink('.requestGroupRate', function () {
                     assert(browser.field('referrer').value === referrer);
                     done();
