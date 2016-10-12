@@ -50,3 +50,19 @@ express source code:https://github.com/expressjs/express/tree/master
 node documentation:https://nodejs.org/api/http.html
 
 
+
+handlebars comments,not send to client
+{{! super-secret comment }}
+<!-- not-so-secret comment -->
+
+body-parser: npm install --save body-parser
+
+file uploads: Formidable
+npm install --save formidable
+
+jquery file upload middleware: npm install --save jquery-file-upload-middleware
+
+recommand demo:http://blueimp.github.io/jQuery-File-Upload/
+
+
+
