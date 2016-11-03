@@ -64,5 +64,38 @@ jquery file upload middleware: npm install --save jquery-file-upload-middleware
 
 recommand demo:http://blueimp.github.io/jQuery-File-Upload/
 
+session :
+npm install --save cookie-parser
+npm install --save express-session
+
+send email
+Nodemailer:npm install --save nodemailer
+
+log:
+development: npm install --save morgan
+production: npm install --save express-logger
+
+site monitor:UptimeRobot  http://uptimerobot.com/
+
+stress test: npm install --save loadtest
+
+database: MongoDB
+online MongoDB hosting service:
+MongoLab  mongolab.com
+or
+MongoHQ
+
+ object document mapper,(ODM) mongoose: npm installl --save mongoose
+
+ using MongoDB for Session Storage: npm install --save session-mongoose
+
+
+ Subdomains:npm install --save vhost
+
+
+
+
+
+
 
 
